@@ -53,5 +53,6 @@ fi
 # Build the site
 echo "\n-----> Building the site"
 cd $BUILD_DIR
+ls -la
 mkdir -p static | indent
 ./hugo | indent
